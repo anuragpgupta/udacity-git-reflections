@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The diff narrowed down the lines to only those that had changed,
+    making it easier to search for the typo (didn't have to read the
+    entire file!)
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can roll back to a working version, or review the changes since a
+    working version to isolate what I might have broken; or simply track
+    who has changed what, and undo someone's changes quickly
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: no clutter; logically chosen points-in-time when commit is done,
+    instead of arbitrary based on time or number of keystrokes
+    Cons: might forget to commit some changes, or often enough, or do it too frequently
+    (variability due to each one's personal judgment)
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Programs usually make related changes across multiple files, and Git is
+    targeting programming environments, unlike Google Docs.
+    
+How can you use the commands git log and git diff to view the history of files?
+
+    git log <file-name> gives all commits that changed the file, with the commit log
+    git diff <first-commit-tag> <second-commit-tag> shows differences between the two
+    commits for all files that differ in these commit
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Since I can quickly and easily go back to a previous version, I can
+    confidently make changes, even if they might break something.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Learn enough to start using for a simple project
+    
